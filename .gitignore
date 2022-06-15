@@ -1,0 +1,8 @@
+.idea
+.envrc
+.settings/
+.loadpath
+.project
+.cproject
+local.properties
+.vscode
