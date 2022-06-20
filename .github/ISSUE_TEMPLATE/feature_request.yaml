@@ -12,16 +12,6 @@ body:
 
         An issue that is not properly filled out will be closed.
   - type: dropdown
-    id: reference
-    attributes:
-      label: What does your feature refer to?
-      options:
-        - InGame
-        - Website
-        - Other
-    validations:
-      required: true
-  - type: dropdown
     id: kind
     attributes:
       label: What kind of feature do you suggest?
