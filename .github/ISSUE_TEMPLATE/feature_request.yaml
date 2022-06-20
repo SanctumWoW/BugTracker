@@ -11,33 +11,33 @@ body:
         to fill out all fields including the title above.
 
         An issue that is not properly filled out will be closed.
-    - type: dropdown
-        id: reference
-        attributes:
-          label: What does your feature refer to?
-          options:
-            - InGame
-            - Website
-            - Other
-        validations:
-          required: true
-    - type: dropdown
+  - type: dropdown
       id: reference
       attributes:
-        label: What kind of feature do you suggest?
+        label: What does your feature refer to?
         options:
-        - label: Creature
-        - label: NPC
-        - label: Worldboss
-        - label: Dungeon
-        - label: Raid
-        - label: Item
-        - label: Profession
-        - label: Quest
-        - label: Spell
-        - Other
+          - InGame
+          - Website
+          - Other
       validations:
         required: true
+  - type: dropdown
+    id: reference
+    attributes:
+      label: What kind of feature do you suggest?
+      options:
+      - label: Creature
+      - label: NPC
+      - label: Worldboss
+      - label: Dungeon
+      - label: Raid
+      - label: Item
+      - label: Profession
+      - label: Quest
+      - label: Spell
+      - Other
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
