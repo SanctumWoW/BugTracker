@@ -16,9 +16,9 @@ body:
     attributes:
       label: What does your feature refer to?
       options:
-      - InGame
-      - Website
-      - Other
+        - InGame
+        - Website
+        - Other
     validations:
       required: true
   - type: dropdown
@@ -26,16 +26,16 @@ body:
     attributes:
       label: What kind of feature do you suggest?
       options:
-      - label: Creature
-      - label: NPC
-      - label: Worldboss
-      - label: Dungeon
-      - label: Raid
-      - label: Item
-      - label: Profession
-      - label: Quest
-      - label: Spell
-      - Other
+        - label: Creature
+        - label: NPC
+        - label: Worldboss
+        - label: Dungeon
+        - label: Raid
+        - label: Item
+        - label: Profession
+        - label: Quest
+        - label: Spell
+        - Other
     validations:
       required: true
   - type: textarea
