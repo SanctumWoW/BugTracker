@@ -1,0 +1,57 @@
+Creature:
+  - '/(creature|monster)/i'
+
+NPC:
+  - '/(npc|vendor)/i'
+
+Dungeon:
+  - '/(dungeon)/i'
+  - '/(solodungeon|solo dungeon)/i'
+  - '/(utgarde keep)/i'
+  - '/(utgarde pinnacle)/i'
+
+Raid:
+  - '/(raid)/i'
+  - '/(magtheridon)/i'
+  - '/(karazahn)/i'
+  - '/(ulduar)/i'
+  - '/(icc)/i'
+
+Quest:
+  - '/(quest)/i'
+
+Profession:
+  - '/(profession)/i'
+  - '/(tailor)/i'
+  - '/(enchanting)/i'
+  - '/(blacksmith)/i'
+  - '/(alchemy)/i'
+  - '/(engineer)/i'
+  - '/(herbalism)/i'
+  - '/(inscription)/i'
+  - '/(jewelcrafting)/i'
+  - '/(leatherworking)/i'
+  - '/(mining)/i'
+  - '/(skinning)/i'
+
+Spell:
+  - '/(spell)/i'
+
+Item:
+  - '/(item)/i'
+
+Custom:
+  - '/(solodungeon)/i'
+  - '/(solo dungeon)/i'
+  - '/(magtheridon)/i'
+  - '/(utgarde keep)/i'
+  - '/(utgarde pinnacle)/i'
+
+Blizzlike:
+  - '/(toc)/i'
+  - '/(trial of the crusader)/i'
+  - '/(trial of the champion)/i'
+  - '/(violet hold)/i'
+  - '/(ahn\'kahet)/i'
+  - '/(azjol nerub)/i'
+  - '/(karazahn)/i'
