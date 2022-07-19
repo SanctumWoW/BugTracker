@@ -1,0 +1,116 @@
+name: Bug report
+description: Create a bug report to help us improve.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking your time to fill out a bug report. Remember to fill out all fields including the title above. 
+        An issue that is not properly filled out will be closed.
+  - type: dropdown
+    id: client
+    attributes:
+      label: What client do you play on?
+      options:
+        - enGB
+        - enUS
+        - deDE
+        - esES
+        - esMX
+        - frFR
+        - ruRU
+        - other
+    validations:
+      required: true
+  - type: dropdown
+    id: faction
+    attributes:
+      label: Race
+      options:
+        - Human
+        - Orc
+        - Dwarf
+        - Nightelf
+        - Undead
+        - Tauren
+        - Gnome
+        - Troll
+        - Bloodelf
+        - Draenei
+    validations:
+      required: true
+  - type: dropdown
+    id: class
+    attributes:
+      label: Class
+      options:
+        - Warrior
+        - Paladin
+        - Hunter
+        - Rogue
+        - Priest
+        - Death Knight
+        - Shaman
+        - Mage
+        - Warlock
+        - Druid
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Behaviour
+      description: |
+        Describe the bug in detail.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behaviour
+      description: |
+        Describe how it should be working without the bug. Add a link to evidence if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce the problem
+      description: |
+        Describe precisely how to reproduce the bug so we can fix it or confirm its existence:
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra Notes
+      description: |
+        Any information that can help the developers to identify and fix the issue should be put here.
+      placeholder: |
+        None
+    validations:
+      required: false
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 10
+        - Windows 11
+        - Mac OS X
+        - Ubuntu 20.04
+        - Chrome OS
+        - Other (Please specify in the description)
+    validations:
+      required: true
+  - type: dropdown
+    id: Server
+    attributes:
+      label: What server do you play on?
+      options:
+        - SanctumWoW
+    validations:
+      required: true
