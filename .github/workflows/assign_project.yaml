@@ -9,9 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Add issue to project
     steps:
-      - name: Assign NEW issues to org project 1
-        uses: actions/add-to-project@0.2.0
-        if: github.event.action == 'opened'
+      - name: Assign new issues to SanctumWoW project 1
+        uses: actions/add-to-project@v0.2.0
         with:
           project-url: 'https://github.com/orgs/SanctumWoW/projects/1'
           github-token: ${{ secrets.GITHUB_TOKEN }}
