@@ -10,7 +10,7 @@ jobs:
     name: Add issue to project
     steps:
       - name: Assign NEW issues to org project 1
-        uses: srggrs/add-to-project@0.2.0
+        uses: actions/add-to-project@0.2.0
         if: github.event.action == 'opened'
         with:
           project-url: 'https://github.com/orgs/SanctumWoW/projects/1'
