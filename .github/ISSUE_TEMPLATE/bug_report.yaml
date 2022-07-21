@@ -18,67 +18,33 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: faction
+    id: client
     attributes:
-      label: What Race are you playing?
+      label: What Client do you play on?
       options:
-        - Human
-        - Orc
-        - Dwarf
-        - Nightelf
-        - Undead
-        - Tauren
-        - Gnome
-        - Troll
-        - Bloodelf
-        - Draenei
+        - enGB
+        - enUS
+        - deDE
+        - esES
+        - esMX
+        - frFR
+        - ruRU
+        - other
     validations:
       required: true
   - type: dropdown
-    id: class
+    id: os
     attributes:
-      label: What Class are you playing?
+      label: What is your Operating system?
       options:
-        - Warrior
-        - Paladin
-        - Hunter
-        - Rogue
-        - Priest
-        - Death Knight
-        - Shaman
-        - Mage
-        - Warlock
-        - Druid
+        - Windows 10
+        - Windows 11
+        - Mac OS X
+        - Ubuntu 20.04
+        - Chrome OS
+        - Other (Please specify in the description)
     validations:
       required: true
-    - type: dropdown
-      id: client
-      attributes:
-        label: What Client do you play on?
-        options:
-          - enGB
-          - enUS
-          - deDE
-          - esES
-          - esMX
-          - frFR
-          - ruRU
-          - other
-      validations:
-        required: true
-      - type: dropdown
-        id: os
-        attributes:
-          label: What is your Operating system?
-          options:
-            - Windows 10
-            - Windows 11
-            - Mac OS X
-            - Ubuntu 20.04
-            - Chrome OS
-            - Other (Please specify in the description)
-        validations:
-          required: true
   - type: textarea
     id: current
     attributes:
